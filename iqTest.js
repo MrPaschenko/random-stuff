@@ -14,5 +14,5 @@ function iqTest(stringOfNumbers) {
   return (arrayOfNumbers.indexOf(number) + 1);
 }
 
-console.log(iqTest('2 4 7 8 10'));
-console.log(iqTest('1 2 2'));
+console.log(iqTest('2 4 7 8 10')); // 3
+console.log(iqTest('1 2 2')); // 1
